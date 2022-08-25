@@ -1,4 +1,10 @@
-import { Heading, HStack, IconButton, useTheme } from "native-base";
+import {
+  Heading,
+  HStack,
+  IconButton,
+  StyledProps,
+  useTheme,
+} from "native-base";
 import { CaretLeft } from "phosphor-react-native";
 import { useNavigation } from "@react-navigation/native";
 import React from "react";
